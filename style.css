@@ -76,6 +76,8 @@ nav {
 
 img {
   width: 400px;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 
 .jumbotron {
@@ -99,4 +101,20 @@ a {
 
 a:hover {
   color: white;
+}
+p {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.cameras {
+  width: 500px;
+  background-color: white;
+  border: 1px solid black;
+  margin-left: 20%;
+}
+button {
+  margin-left: 30%;
+  margin-bottom: 5%;
 }
