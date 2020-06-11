@@ -1,0 +1,102 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-color: #f3e9f1;
+}
+
+/* header */
+
+.navbar-brand {
+  display: flex;
+}
+
+.fas {
+  font-size: 2em;
+  margin-right: 10px;
+  background-image: linear-gradient(
+    to right,
+    #e58a0a,
+    #c17672,
+    #a768ba,
+    #8f5bfe
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h1 {
+  font-family: "Piedra";
+  margin-top: 5px;
+  color: rgb(65, 56, 56);
+}
+.navbar-dark {
+  margin-top: 10px;
+}
+
+header {
+  border-bottom: 3px solid black;
+}
+
+.navbar-toggler-icon {
+  background-color: black;
+  height: 35px;
+  width: 35px;
+  border-radius: 7px;
+  margin-top: 0;
+}
+
+.navbar-collapse {
+  color: black;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-body {
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.row {
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+/* section cam */
+
+img {
+  width: 400px;
+}
+
+.jumbotron {
+  background-color: bisque;
+  margin-top: 30px;
+  border: 2px solid black;
+  font-family: "Balsamiq";
+}
+
+.card-body {
+  background-color: white;
+}
+
+.bouton {
+  color: white;
+}
+
+a {
+  color: aliceblue;
+}
+
+a:hover {
+  color: white;
+}
